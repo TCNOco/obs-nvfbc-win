@@ -1,4 +1,18 @@
-# obs-nvfbc
+# obs-nvfbc-win
+
+This is a fork of a project for using nvfbc in OBS on Linux.
+I took that, and threw together things very simply for Windows. I highly doubt this will work at all. Just wanted to see if I could build it to get anywhere.
+
+Currently getting:
+`22:03:48.990: Unable to find NvFBCCreateInstance symbol in NvFBC library`
+`22:03:48.990: Failed to initialize module 'obs-nvfbc.dll'`
+
+This is an error from the plugin itself, so we're somewhere I hope :)
+This project likely already exists. This is the first I'm hearing of it.
+Do let me know :)
+
+
+## obs-nvfbc
 
 OBS Studio source plugin using NVIDIA's FBC API for Linux.
 
